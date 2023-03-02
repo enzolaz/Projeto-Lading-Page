@@ -52,19 +52,37 @@ h1{
     
     border-bottom: 1px solid #ffaf00;
     width: 545px;
-    height: 230px;
+    height: 246px;
 }
 
 h3{
     color: #F9003D;
     font-family: 'Courier New', Courier, monospace;
     font-size: 53px;
+    margin-top: 29px;
 
     width: 544px;
     height: 68px;
 }
 
 /* MAIN */
- body{
-     background-color: black;
+.Titulo{
+ display: flex;
+ flex-direction: column;
+}
+
+ .Banner{
+     height: 740px;
+     background-image: url(../images/imagem-fundo-banner.png);
+     background-size:cover;
+
+     display: flex;
+     align-items: center;
  }
+
+ .mouse-icon {
+     width: 37.31px;
+     height: 80px;
+ }
+ /* Rapapé */
+
