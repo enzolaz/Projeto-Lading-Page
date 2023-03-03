@@ -115,6 +115,23 @@ h2{
     align-items: center;
 }
 
+#BoxEndereço{
+    width: 899px;
+    height: 204px;
+
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #a259f7;
+    font-weight: inherit;
+
+    background-color: #010101;
+    border: 1px solid #a259f7;
+
+    display: flex;
+    align-items: center;
+    padding-left: 64px;
+}
+
 /* MAIN */
 .Titulo{
  display: flex;
@@ -170,7 +187,7 @@ h2{
  .infos{
      background-image: url(../images/imagem-fundo-info.png);
      height: 200px;
-     
+
      display: flex;
      align-items: center;
  }
@@ -183,8 +200,41 @@ h2{
     width: 1200px;
     height: 135px;
 }
+
+.Endereço{
+    background-image: url(../images/imagem-fundo-endereco.png);
+    height: 526px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
  
- 
+.box1{
+    width: 874;
+    height: 263;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1000;
+    bottom: 40px;
+}
+
+.box2{
+    display: flex;
+    position: absolute;
+    top: 1971px;
+}
+
+.Map{
+    display: flex;
+    position: relative;
+    z-index: 1001;
+    left: 570px;
+    bottom: 80px;
+}
 
  
 
