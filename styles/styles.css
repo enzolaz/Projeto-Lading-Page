@@ -75,6 +75,44 @@ p{
     font-family: "Open Sans";
     font-size: 18px;
     text-decoration: none;
+    text-align: justify;
+}
+
+#Titulo-Projeto{
+    color: #f9003d;
+    font-family: "Bebas Neue";
+    font-size: 64px;
+}
+
+h4{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #ffaf00;
+    font-family: "Bebas Neue";
+    font-size: 64px;
+}
+
+#SubInfos{
+    color: #a259f7;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    text-transform: uppercase;
+
+    width: 289px;
+    height: 100px;
+
+    border: 1px solid #a259f7;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* MAIN */
@@ -97,7 +135,50 @@ p{
      height: 80px;
  }
 
- /* Rodapé */
+
+ /* Seção Sobre */
+
+ .Projetos{
+     height: 800px;
+     background-color: #080324;
+    
+     display: flex;
+     align-items: center;
+ }
+
+ .imagem-projeto{
+     width: 491px;
+     height: 476px;
+
+     margin-top: 64px;
+ }
+
+ .Participantes{
+     width: 592px;
+     height: 476px;
+
+     position: absolute;
+     left: 798px;
+     top: 1005px;
+     display: flex;
+     justify-content: space-around;
+     flex-direction: column;
+ }
+
+ /* SEÇÃO INFORMAÇÕES */
+
+ .infos{
+     background-image: url(../images/imagem-fundo-info.png);
+     height: 200px;
+ }
+
+ 
+ 
+ 
+
+ 
+
+/* Rodapé */
 
  .footer-flex{
     height: 100%;
@@ -110,4 +191,13 @@ footer{
     background-color: #f9003d;
     width: 100%;
     height: 82px;
+}
+
+.BoxInfos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 1200px;
+    height: 135px;
 }
