@@ -1,9 +1,30 @@
 /* Mobile First */
 @media screen and (min-width: 375px) {
-.layout-grid{
-    max-width: 300px;
+.MostrarMenu{
+    left: 0;
 }
+
+header nav {
+    background-color: #f9003d;
+
+    position: fixed;
+    top: 60px;
+    left: -65%;
+    flex-direction: column;
+    height: calc(100% - 60px);
+    width: 65%;
+    justify-content: space-around;
+    align-items: center;
 }
+
+
+main{
+    display: none;
+}
+
+footer{
+display:none }
+};
 
 /* notebooks >= 1200px */
 @media screen and (min-width: 1200px) {

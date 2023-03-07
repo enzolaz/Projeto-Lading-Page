@@ -14,13 +14,13 @@
 
     <header>
         <div class="layout-grid header-flex">
-            <nav>
+            <nav id="navmenu">
                 <a href="">Início</a>
                 <a href="">Sobre</a>
                 <a href="">Desafios</a>
                 <a href="">Endereço</a>
             </nav>
-            <img src="assets/Icons/menu_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            <img src="assets/Icons/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="" onclick="MostrarMenu()">
         </div>
     </header>
 
@@ -94,8 +94,15 @@
             </div>
 
         </section>
-    </main>
+        </main>
 
+
+        <script>
+            function MostrarMenu() {
+                document.getElementById("navmenu").classList.toggle("MostrarMenu");
+               }
+        </script>
+    </body>
     <footer>
         <div class="layout-grid footer-flex">
             <p>Copyright © 2020 - Escola Senai de Informática</p>
