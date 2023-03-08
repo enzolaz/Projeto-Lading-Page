@@ -294,6 +294,37 @@ main{
     display: none;
 }
 
+/* Main */
+.Titulo{
+
+    width: 320px;
+
+    position: relative;
+    bottom: 160px;
+    left: -10px;
+
+}
+
+.mouse-icon{
+    display: none;
+}
+
+h1{
+    font-size: 50px;
+
+    border-bottom: 1px solid #ffaf00;
+    width: 320px;
+}
+
+h3{
+    font-size: 25px;
+    
+    margin-top: 6px;
+
+}
+
+/* Rodape */
+
 footer{
     display:none; }
 }
